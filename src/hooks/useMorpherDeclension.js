@@ -10,7 +10,7 @@ export function useMorpherDeclension(id, word) {
 
     function fetchConjugatedWord() {
       window
-        .fetch(new URL(`http://ws3.morpher.ru/russian/declension?s=${word}&format=json&token=${MORPHER_TOKEN}`))
+        .fetch(new URL(`https://ws3.morpher.ru/russian/declension?s=${word}&format=json&token=${MORPHER_TOKEN}`))
         .then((response) => response.json())
         .then((data) => {
           if (isMounted) {

@@ -11,7 +11,7 @@ export function useMorpherSpell(id, quantity, unit) {
     function fetchConjugatedWord() {
       window
         .fetch(
-          new URL(`http://ws3.morpher.ru/russian/spell?n=${quantity}&unit=${unit}&format=json&token=${MORPHER_TOKEN}`)
+          new URL(`https://ws3.morpher.ru/russian/spell?n=${quantity}&unit=${unit}&format=json&token=${MORPHER_TOKEN}`)
         )
         .then((response) => response.json())
         .then((data) => {
