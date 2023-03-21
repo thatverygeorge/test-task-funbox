@@ -1,0 +1,32 @@
+export const data = [
+  {
+    id: 0,
+    mainIngredient: 'фуа-гра',
+    numOfServings: 10,
+    numOfGifts: 1,
+    weight: 0.5,
+    description: 'Печень утки разварная с артишоками.',
+    isCustomerSatisfied: false,
+    isAvailable: false,
+  },
+  {
+    id: 1,
+    mainIngredient: 'рыба',
+    numOfServings: 40,
+    numOfGifts: 2,
+    weight: 2,
+    description: 'Головы щучьи с чесноком да свежайшая сёмгушка.',
+    isCustomerSatisfied: false,
+    isAvailable: true,
+  },
+  {
+    id: 2,
+    mainIngredient: 'кура',
+    numOfServings: 100,
+    numOfGifts: 5,
+    weight: 5,
+    description: 'Филе из цыплят с трюфелями в бульоне.',
+    isCustomerSatisfied: true,
+    isAvailable: true,
+  },
+];
